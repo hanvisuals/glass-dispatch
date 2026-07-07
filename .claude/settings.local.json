@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /Users/seyithankartal/Downloads/ideal-glass-newsletter-v3.html && ls /Users/seyithankartal/Desktop/IDG_Newsletter)",
+      "Bash(cp /Users/seyithankartal/Downloads/ideal-glass-newsletter-v3.html /Users/seyithankartal/Desktop/IDG_Newsletter/index.html)",
+      "Bash(cp /Users/seyithankartal/Downloads/HANDOFF.md /Users/seyithankartal/Desktop/IDG_Newsletter/HANDOFF.md)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(brew --version)",
+      "Bash(git config *)",
+      "Read(//Users/seyithankartal/**)",
+      "Bash(ssh -T git@github.com -o StrictHostKeyChecking=accept-new -o ConnectTimeout=5)",
+      "Bash(git credential-osxkeychain *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Glass Dispatch newsletter v3 *)",
+      "Bash(mkdir -p ~/.local/bin)",
+      "Bash(curl -sL https://github.com/cli/cli/releases/latest/download/gh_2.76.1_macOS_arm64.zip -o /private/tmp/claude-501/-Users-seyithankartal-Desktop-IDG-Newsletter/4d4d2b62-21b0-4712-a70c-d2b7e01b3bf7/scratchpad/gh.zip)",
+      "Bash(~/.local/bin/gh auth *)",
+      "mcp__claude-in-chrome__navigate",
+      "mcp__claude-in-chrome__computer",
+      "Bash(curl -s https://hanvisuals.github.io/glass-dispatch/)",
+      "Bash(sips -g pixelWidth -g pixelHeight \"./-2.jpg\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"Ideal Glass Atelier.png\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"Ideal Glass AtelierW.png\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"Sweetery-NYC-Glass-Truck-Macys-1-1500px.jpg\")",
+      "Bash(cp \"/Users/seyithankartal/Downloads/Ideal Glass Atelier/9.png\" slide9b.png)",
+      "Bash(python3 -)"
+    ]
+  }
+}
