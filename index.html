@@ -1,0 +1,375 @@
+<!--
+  IDEAL GLASS STUDIOS — "THE GLASS DISPATCH" v2
+  Monochrome / chic / photo + Shorts.  Mailchimp-ready.
+
+  VIDEO SLOTS:
+  Email can't play video inline. Each "video" is a clickable thumbnail
+  that opens the YouTube Short. Best result: export a short looping GIF of
+  the Short and use it as the thumbnail so it moves in the inbox.
+  - Put the Short's URL in the <a href="..."> of that block.
+  - Swap the placeholder <img src="..."> for your GIF/frame.
+  - The mono caption (0:52 etc.) is the run-time. Edit it per Short.
+
+  IMPORT: Templates > Create Template > Code your own > Paste in code.
+  Blocks marked mc:edit are editable in the drag-drop editor.
+  Event rows + Shorts are mc:repeatable (duplicate/remove in editor).
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <title>*|MC:SUBJECT|*</title>
+
+  <!--[if mso]>
+  <noscript><xml><o:OfficeDocumentSettings>
+    <o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/>
+  </o:OfficeDocumentSettings></xml></noscript>
+  <![endif]-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,700;1,6..96,500&family=Archivo:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+    body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+    img { -ms-interpolation-mode:bicubic; border:0; height:auto; line-height:100%; outline:none; text-decoration:none; display:block; }
+    table { border-collapse:collapse !important; }
+    body { margin:0 !important; padding:0 !important; width:100% !important; }
+    a { color:#0E0E0E; }
+    a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !important; }
+
+    .disp { font-family:'Bodoni Moda', Georgia, 'Times New Roman', serif; }
+    .body { font-family:'Archivo', Helvetica, Arial, sans-serif; }
+    .mono { font-family:'Space Mono', 'Courier New', Courier, monospace; }
+
+    .lnk:hover { opacity:0.55 !important; }
+    .btn:hover { background:#333 !important; }
+    .vid:hover img { opacity:0.82 !important; }
+
+    @media only screen and (max-width:620px) {
+      .wrap  { width:100% !important; }
+      .px    { padding-left:26px !important; padding-right:26px !important; }
+      .stack { display:block !important; width:100% !important; }
+      .stack-img img { width:100% !important; height:auto !important; }
+      .short-col { display:block !important; width:100% !important; padding:0 0 24px 0 !important; }
+      .short-col img { width:100% !important; height:auto !important; }
+      .h1  { font-size:38px !important; line-height:40px !important; }
+      .flagt { font-size:34px !important; letter-spacing:4px !important; }
+      .gap { height:22px !important; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .sheet { background:#FFFFFF !important; }
+      .frame { background:#E9E7E2 !important; }
+    }
+  </style>
+</head>
+
+<body class="frame" style="margin:0; padding:0; background:#E6E4DF;">
+
+  <!-- preheader -->
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#E6E4DF;">
+    <span mc:edit="preheader">New openings, this month's Shorts, and what's coming to the floor.</span>
+    &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+  </div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#E6E4DF;">
+    <tr>
+      <td align="center" style="padding:28px 12px;">
+
+        <!--[if mso]><table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
+        <table role="presentation" class="wrap sheet" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px; max-width:600px; background:#FFFFFF;">
+
+          <!-- ===== MASTHEAD ===== -->
+          <tr>
+            <td class="px" style="padding:40px 48px 0 48px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td class="mono" align="left" style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#8A857D;">
+                    <span mc:edit="issue_line">No. 07 / *|DATE:F Y|*</span>
+                  </td>
+                  <td class="mono" align="right" style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#8A857D;">
+                    New York
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="disp px" align="center" style="padding:30px 48px 0 48px;">
+              <div class="flagt" style="font-family:'Bodoni Moda', Georgia, serif; font-size:44px; line-height:44px; font-weight:700; letter-spacing:6px; text-transform:uppercase; color:#0E0E0E;">
+                Ideal&nbsp;Glass
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="mono px" align="center" style="padding:12px 48px 22px 48px; font-size:10px; letter-spacing:5px; text-transform:uppercase; color:#8A857D;">
+              The Glass Dispatch
+            </td>
+          </tr>
+          <tr>
+            <td class="px" style="padding:0 48px;">
+              <div style="border-top:1px solid #0E0E0E; line-height:0; font-size:0;">&nbsp;</div>
+            </td>
+          </tr>
+
+          <!-- ===== SUBSCRIBE CATCHER (for forwarded readers) ===== -->
+          <!-- Replace SIGNUP_FORM_URL with your Mailchimp hosted signup form URL
+               (Audience > Signup forms > copy the "Signup form URL"). -->
+          <tr>
+            <td class="mono" align="center" style="padding:12px 48px; font-size:11px; letter-spacing:1px; color:#8A857D; background:#F6F5F2;">
+              Someone forward this to you?
+              <a href="SIGNUP_FORM_URL" target="_blank" class="lnk" style="color:#0E0E0E; text-decoration:none; border-bottom:1px solid #0E0E0E; padding-bottom:1px;">Get on the list &#8594;</a>
+            </td>
+          </tr>
+
+          <!-- ===== HERO (PHOTO) ===== -->
+          <tr>
+            <td mc:edit="hero_image" style="padding:0;">
+              <img src="https://picsum.photos/id/1062/600/380" width="600" alt="" style="width:100%; max-width:600px; height:auto; display:block; filter:grayscale(1) contrast(1.12);">
+            </td>
+          </tr>
+          <tr>
+            <td class="px" style="padding:26px 48px 0 48px;">
+              <div class="mono" style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#8A857D; padding-bottom:14px;">
+                <span mc:edit="hero_kicker">On View</span>
+              </div>
+              <div mc:edit="hero_headline" class="disp h1" style="font-family:'Bodoni Moda', Georgia, serif; font-size:46px; line-height:48px; font-weight:700; color:#0E0E0E; margin:0;">
+                Light, bent on purpose.
+              </div>
+              <div mc:edit="hero_dek" class="body" style="font-size:16px; line-height:27px; color:#3A362F; padding-top:18px;">
+                Three new residencies, a late studio session, and a founder walkthrough you can sit in on. The month, laid out.
+              </div>
+              <div style="padding-top:18px;">
+                <a mc:edit="hero_link" href="*|ARCHIVE|*" target="_blank" class="mono lnk" style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#0E0E0E; text-decoration:none; border-bottom:1px solid #0E0E0E; padding-bottom:3px;">
+                  Read the issue &#8594;
+                </a>
+              </div>
+            </td>
+          </tr>
+
+          <tr><td class="px" style="padding:36px 48px 0 48px;"><div style="border-top:1px solid #E4E1DB; line-height:0; font-size:0;">&nbsp;</div></td></tr>
+
+          <!-- ===== FEATURED SHORT (VIDEO, vertical thumb left + text right) ===== -->
+          <tr>
+            <td class="px" style="padding:30px 48px 0 48px;">
+              <div class="mono" style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#8A857D; padding-bottom:18px;">
+                On Screen &#183; <span style="color:#0E0E0E;">Subscribers first</span>
+              </div>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <!-- vertical video thumb -->
+                  <td class="stack" width="210" valign="top" style="width:210px;">
+                    <a mc:edit="feat_video" class="vid" href="https://youtube.com/shorts/REPLACE_ME" target="_blank" style="text-decoration:none; display:block;">
+                      <div class="stack-img" style="border:1px solid #0E0E0E;">
+                        <img src="https://picsum.photos/id/1080/210/374" width="210" alt="Play Short" style="width:210px; height:auto; display:block; filter:grayscale(1) contrast(1.12);">
+                      </div>
+                    </a>
+                  </td>
+                  <td class="stack" width="26" style="width:26px; font-size:0; line-height:0;">&nbsp;</td>
+                  <!-- caption / text -->
+                  <td class="stack" valign="top">
+                    <div class="mono" style="font-size:11px; letter-spacing:1px; color:#8A857D; padding-top:2px;">
+                      <span mc:edit="feat_runtime">&#9654; WATCH &#183; 0:52 &#183; YOUTUBE</span>
+                    </div>
+                    <div mc:edit="feat_title" class="disp" style="font-family:'Bodoni Moda', Georgia, serif; font-size:26px; line-height:29px; font-weight:600; color:#0E0E0E; padding-top:10px;">
+                      One night on the floor, in fifty seconds.
+                    </div>
+                    <div mc:edit="feat_copy" class="body" style="font-size:15px; line-height:24px; color:#3A362F; padding-top:12px;">
+                      A cut from the last residency night. Flash, film, and the print table running late. Tap to watch the full Short.
+                    </div>
+                    <div style="padding-top:14px;">
+                      <a mc:edit="feat_link" href="https://youtube.com/shorts/REPLACE_ME" target="_blank" class="mono lnk" style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#0E0E0E; text-decoration:none; border-bottom:1px solid #0E0E0E; padding-bottom:3px;">
+                        Play &#8594;
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr><td class="px" style="padding:34px 48px 0 48px;"><div style="border-top:1px solid #E4E1DB; line-height:0; font-size:0;">&nbsp;</div></td></tr>
+
+          <!-- ===== UPCOMING (repeatable list rows) ===== -->
+          <tr>
+            <td class="px" style="padding:30px 48px 4px 48px;">
+              <div class="mono" style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#8A857D;">Upcoming</div>
+            </td>
+          </tr>
+          <tr mc:repeatable="events" mc:variant="Event">
+            <td class="px" style="padding:20px 48px 0 48px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td class="stack" width="96" valign="top" style="width:96px;">
+                    <div mc:edit="ev_date" class="mono" style="font-size:12px; line-height:18px; letter-spacing:1px; color:#0E0E0E;">
+                      FRI<br>JUL 18<br><span style="color:#8A857D;">7 PM</span>
+                    </div>
+                  </td>
+                  <td class="stack" valign="top">
+                    <div mc:edit="ev_title" class="disp" style="font-family:'Bodoni Moda', Georgia, serif; font-size:22px; line-height:26px; font-weight:600; color:#0E0E0E;">
+                      Residency Night: Analog Room
+                    </div>
+                    <div mc:edit="ev_copy" class="body" style="font-size:14px; line-height:22px; color:#3A362F; padding-top:6px;">
+                      Open studio with our July residents. Print table running all night.
+                    </div>
+                    <div style="padding-top:10px;">
+                      <a mc:edit="ev_link" href="*|ARCHIVE|*" target="_blank" class="mono lnk" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; color:#0E0E0E; text-decoration:none; border-bottom:1px solid #0E0E0E; padding-bottom:2px;">
+                        RSVP + bring one &#8594;
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <div class="gap" style="height:22px; line-height:0; font-size:0;">&nbsp;</div>
+              <div style="border-top:1px solid #E4E1DB; line-height:0; font-size:0;">&nbsp;</div>
+            </td>
+          </tr>
+
+          <!-- ===== SHORTS ROW (two vertical videos side by side) ===== -->
+          <tr>
+            <td class="px" style="padding:32px 48px 4px 48px;">
+              <div class="mono" style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#8A857D;">Shorts</div>
+            </td>
+          </tr>
+          <tr>
+            <td class="px" style="padding:18px 48px 0 48px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <!-- short 1 -->
+                  <td class="short-col" width="240" valign="top" style="width:240px;">
+                    <a mc:edit="short1_video" class="vid" href="https://youtube.com/shorts/REPLACE_ME" target="_blank" style="text-decoration:none; display:block;">
+                      <div style="border:1px solid #0E0E0E;">
+                        <img src="https://picsum.photos/id/1069/240/427" width="240" alt="Play Short" style="width:240px; height:auto; display:block; filter:grayscale(1) contrast(1.12);">
+                      </div>
+                    </a>
+                    <div mc:edit="short1_cap" class="mono" style="font-size:11px; letter-spacing:1px; color:#0E0E0E; padding-top:10px;">
+                      &#9654; 0:38 &#183; Studio Build
+                    </div>
+                  </td>
+                  <td width="20" class="stack" style="width:20px; font-size:0; line-height:0;">&nbsp;</td>
+                  <!-- short 2 -->
+                  <td class="short-col" width="240" valign="top" style="width:240px;">
+                    <a mc:edit="short2_video" class="vid" href="https://youtube.com/shorts/REPLACE_ME" target="_blank" style="text-decoration:none; display:block;">
+                      <div style="border:1px solid #0E0E0E;">
+                        <img src="https://picsum.photos/id/1073/240/427" width="240" alt="Play Short" style="width:240px; height:auto; display:block; filter:grayscale(1) contrast(1.12);">
+                      </div>
+                    </a>
+                    <div mc:edit="short2_cap" class="mono" style="font-size:11px; letter-spacing:1px; color:#0E0E0E; padding-top:10px;">
+                      &#9654; 0:44 &#183; On the Floor
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr><td class="px" style="padding:34px 48px 0 48px;"><div style="border-top:1px solid #E4E1DB; line-height:0; font-size:0;">&nbsp;</div></td></tr>
+
+          <!-- ===== IN THE STUDIO (PHOTO + text) ===== -->
+          <tr>
+            <td class="px" style="padding:30px 48px 0 48px;">
+              <div class="mono" style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#8A857D; padding-bottom:16px;">In the Studio</div>
+              <div mc:edit="studio_img">
+                <img src="https://picsum.photos/id/1084/504/300" width="504" alt="" style="width:100%; max-width:504px; height:auto; display:block; filter:grayscale(1) contrast(1.12);">
+              </div>
+              <div mc:edit="studio_title" class="disp" style="font-family:'Bodoni Moda', Georgia, serif; font-size:28px; line-height:31px; font-weight:700; color:#0E0E0E; padding-top:18px;">
+                Behind the founder walkthrough
+              </div>
+              <div mc:edit="studio_copy" class="body" style="font-size:15px; line-height:25px; color:#3A362F; padding-top:12px;">
+                An afternoon with Willard, tracing how the space gets built for a shoot. Nothing here is set dressing. Full film next week.
+              </div>
+              <div style="padding-top:14px;">
+                <a mc:edit="studio_link" href="*|ARCHIVE|*" target="_blank" class="mono lnk" style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#0E0E0E; text-decoration:none; border-bottom:1px solid #0E0E0E; padding-bottom:3px;">
+                  Watch the teaser &#8594;
+                </a>
+              </div>
+            </td>
+          </tr>
+
+          <!-- ===== PASS IT ON (forward-to-friend, list growth) ===== -->
+          <tr><td class="px" style="padding:34px 48px 0 48px;"><div style="border-top:1px solid #E4E1DB; line-height:0; font-size:0;">&nbsp;</div></td></tr>
+          <tr>
+            <td class="px" align="center" style="padding:28px 48px 0 48px;">
+              <div mc:edit="forward_title" class="disp" style="font-family:'Bodoni Moda', Georgia, serif; font-style:italic; font-size:22px; line-height:28px; color:#0E0E0E;">
+                Know someone for the floor?
+              </div>
+              <div style="padding-top:14px;">
+                <a href="*|FORWARD|*" target="_blank" class="mono lnk" style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#0E0E0E; text-decoration:none; border-bottom:1px solid #0E0E0E; padding-bottom:3px;">
+                  Forward this issue &#8594;
+                </a>
+              </div>
+            </td>
+          </tr>
+
+          <!-- ===== CTA (inverted black band) ===== -->
+          <tr>
+            <td style="padding:34px 48px 0 48px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#0E0E0E" style="background:#0E0E0E;">
+                <tr>
+                  <td align="center" style="padding:40px 36px;">
+                    <div class="mono" style="font-size:10px; letter-spacing:4px; text-transform:uppercase; color:#8A857D; padding-bottom:14px;">Book the space</div>
+                    <div mc:edit="cta_title" class="disp" style="font-family:'Bodoni Moda', Georgia, serif; font-size:28px; line-height:32px; font-weight:700; color:#FFFFFF;">
+                      Shoot it, show it, host it here.
+                    </div>
+                    <div mc:edit="cta_copy" class="body" style="font-size:14px; line-height:23px; color:#B7B1A4; padding-top:12px;">
+                      Productions, screenings, private events. Send a date, we'll hold it.
+                    </div>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin-top:22px;">
+                      <tr>
+                        <td class="btn" bgcolor="#FFFFFF" style="border-radius:0;">
+                          <a mc:edit="cta_button" href="mailto:hello@idealglass.studio" target="_blank" class="mono" style="display:inline-block; padding:15px 30px; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#0E0E0E; text-decoration:none;">
+                            Get in touch
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ===== FOOTER ===== -->
+          <tr>
+            <td class="px" style="padding:32px 48px 42px 48px;">
+              <div style="border-top:1px solid #0E0E0E; line-height:0; font-size:0; margin-bottom:20px;">&nbsp;</div>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td class="mono" align="left" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; color:#0E0E0E;">
+                    <a href="*|LIST:URL|*" target="_blank" class="lnk" style="color:#0E0E0E; text-decoration:none;">Instagram</a>
+                    &nbsp;/&nbsp;
+                    <a href="*|LIST:URL|*" target="_blank" class="lnk" style="color:#0E0E0E; text-decoration:none;">YouTube</a>
+                    &nbsp;/&nbsp;
+                    <a href="*|ARCHIVE|*" target="_blank" class="lnk" style="color:#0E0E0E; text-decoration:none;">Archive</a>
+                    &nbsp;/&nbsp;
+                    <a href="*|FORWARD|*" target="_blank" class="lnk" style="color:#0E0E0E; text-decoration:none;">Forward</a>
+                  </td>
+                </tr>
+              </table>
+              <div class="body" style="font-size:12px; line-height:20px; color:#8A857D; padding-top:18px;">
+                <span mc:edit="footer_company">*|LIST:COMPANY|*</span><br>*|LIST:ADDRESS|*
+              </div>
+              <div class="body" style="font-size:12px; line-height:20px; color:#8A857D; padding-top:16px;">
+                You're on this list from a show, shoot, or event.<br>
+                <a href="*|UPDATE_PROFILE|*" class="lnk" style="color:#0E0E0E; text-decoration:underline;">Update preferences</a>
+                &nbsp;/&nbsp;
+                <a href="*|UNSUB|*" class="lnk" style="color:#0E0E0E; text-decoration:underline;">Unsubscribe</a>
+              </div>
+              <div class="mono" style="font-size:10px; letter-spacing:1px; color:#B3AEA4; padding-top:18px;">
+                &copy; *|CURRENT_YEAR|* Ideal Glass Studios
+              </div>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]></td></tr></table><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
